@@ -1,0 +1,8 @@
+uvicorn 
+   - Uvicorn is an ASGI web server implementation for Python.
+
+# ps -fA | grep python
+
+# Run server
+ --reload: make the server restart after code changes. Only use for development.
+ $ uvicorn main:app --reload
